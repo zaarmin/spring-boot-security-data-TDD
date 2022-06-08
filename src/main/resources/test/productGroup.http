@@ -1,0 +1,56 @@
+### call add Product Group
+POST http://localhost:8080/productGroups/add
+Content-Type: application/json
+
+{
+  "productGroupCode":2,
+  "productGroupName": "Kitchen",
+  "active": true
+}
+
+### call add Product Group
+POST http://localhost:8080/productGroups/add
+Content-Type: application/json
+
+{
+  "productGroupCode":3,
+  "productGroupName": "Cloths",
+  "active": true
+}
+
+### call add Product Group
+POST http://localhost:8080/productGroups/add
+Content-Type: application/json
+
+{
+  "productGroupCode":4,
+  "productGroupName": "Tools",
+  "active": true
+}
+
+### call User
+GET http://localhost:8080/productGroups/getAll
+Content-Type: application/json
+
+### call User
+GET http://localhost:8080/productGroups/getByCode/2
+Content-Type: application/json
+
+### call User
+GET http://localhost:8080/productGroups/getByCode/5
+Content-Type: application/json
+
+### call update Product Group
+PUT http://localhost:8080/productGroups/update/2
+Content-Type: application/json
+
+{
+  "productGroupCode":22,
+  "productGroupName": "Tools22",
+  "active": true
+}
+
+### call Delete Product Group  2
+DELETE http://localhost:8080/productGroups/2
+Content-Type: application/json
+

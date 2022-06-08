@@ -1,0 +1,24 @@
+
+
+### call employee  pageSize=5 service
+GET http://localhost:8080/employees?pageSize=5
+Content-Type: application/json
+
+### call employee  pageSize=5 & pageNo=1 service
+GET http://localhost:8080/employees?pageSize=5&pageNo=0
+Content-Type: application/json
+
+### call employee  pageSize=5 & pageNo=2 service
+GET http://localhost:8080/employees?pageSize=5&pageNo=1
+Content-Type: application/json
+
+### call employee  pageSize=5 & pageNo=1 & sortBy=email service
+GET http://localhost:8080/employees?pageSize=5&pageNo=0&sortBy=email
+Content-Type: application/json
+
+### call employee  pageSize=5 and & pageNo=1 & sortBy=firstname service
+GET http://localhost:8080/employees?pageSize=5&pageNo=0&sortBy=firstName
+Content-Type: application/json
+
+
+

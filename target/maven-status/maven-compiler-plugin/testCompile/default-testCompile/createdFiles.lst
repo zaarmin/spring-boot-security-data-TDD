@@ -1,0 +1,6 @@
+com\azadi\test.class
+com\azadi\service\ProductGroupServiceIntegrationTest.class
+com\azadi\controller\ProductGroupControllerTest.class
+com\azadi\domain\ProductGroupTest.class
+com\azadi\service\userServiceIntegrationTest.class
+com\azadi\ProductGroupApplicationTest.class

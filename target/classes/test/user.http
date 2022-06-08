@@ -1,0 +1,36 @@
+### call User  save
+POST http://localhost:8080/users/add-user
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name":"zahra1",
+  "email": "zahra@yahoo.com"
+}
+### call User  save
+POST http://localhost:8080/users/add-user
+Content-Type: application/json
+
+{
+  "id":2,
+  "name": "mehdi",
+  "email": "mehdi@yahoo.com"
+}
+
+
+### call User
+GET http://localhost:8080/users/
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dLCJpYXQiOjE2NDM0NDQ1MTksImV4cCI6MTY0MzQ0NTExOX0.lfevIkulS-KaDYNrx5PwujNJ2HnIOERD5ZRdeSgRZRs"
+
+### Login
+POST http://localhost:8080/users/signin
+Content-Type: application/json
+
+{
+  "username":"admin",
+  "password": "letmein"
+
+}
+
+###
